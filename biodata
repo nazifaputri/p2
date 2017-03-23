@@ -1,0 +1,52 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main ()
+{
+    char nama[30];
+    int nim;
+    char prodi[30];
+    char lahir[30];
+    char alamat[50];
+    char agama[10];
+    char gender[15];
+    char email[30];
+
+
+    cout << "Nama Anda                 : ";
+    cin >> nama;
+
+    cout << "NIM Anda                  : ";
+    cin >> nim;
+
+    cout << "Jurusan Anda              : ";
+    cin >> prodi;
+
+    cout << "Tempat Tanggal Lahir Anda : ";
+    cin >> lahir;
+
+    cout << "Alamat Anda               : ";
+    cin >> alamat;
+
+    cout << "Agama Anda                : ";
+    cin >> agama;
+
+    cout << "Jenis Kelamin Anda        : ";
+    cin >> gender;
+
+    cout << "Email Anda                : ";
+    cin >> email;
+    system("cls");
+
+
+    cout << "\nSELAMAT DATANG " << nama <<endl;
+    cout<<"Nama                 : "<<nama<<endl;
+    cout<<"NIM                  : "<<nim<<endl;
+    cout<<"Jurusan              : "<<prodi<<endl;
+    cout<<"Tempat Tanggal Lahir : "<<lahir<<endl;
+    cout<<"Alamat               : "<<alamat<<endl;
+    cout<<"Agama                : "<<agama<<endl;
+    cout<<"Jenis Kelamin        : "<<gender<<endl;
+    cout<<"Email                : "<<email<<endl;
+    return 0;
+}
