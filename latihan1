@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int p;
+    int l;
+    int k;
+    int lu;
+
+    cout << "Masukkan Panjang: "<<'\n';
+    cin >> p;
+
+    cout << "Masukkan Lebar: "<<'\n';
+    cin >> l;
+
+    k= 2*p+l;
+    lu= p*l;
+
+    cout << "Keliling: "<<k<<'\n';
+    cout << "Luas: "<<lu<<'\n';
+    return 0;
+}
